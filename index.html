@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container"><Header>
+        <img src="./images/livro-de-enderecos.png" alt="capelo e diploma">
+        <h1>Agenda de Contatos</h1>
+    </Header>
+    <form id="form-atividade">
+        <input type="text" id="nome-contato" required placeholder="Nome do Contato"/>
+        <input type="tel" id="numero-contato" required placeholder="Numero Telefone" min="0" max="10"/>
+        <input type="email" id="email" required placeholder="Email" min="0" max="10"/>
+        <button type="submit"> Adicionar +</button>
+    </form>
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th>Nome do Do Contato</th>
+                <th> Numero Telefone</th>
+                <th>Email</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>---</td>
+                <td >---</td>
+                <td >---</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+<script src="./main.js"></script>
+    
+</body>
+</html>
